@@ -1,0 +1,86 @@
+.container {
+    margin: 0 auto 70px;
+    width: 1360px;
+  
+    @media (max-width: 1378px) {
+      width: 1137px;
+    }
+  
+    @media (max-width: 1154px) {
+      width: 911px;
+    }
+  
+    @media (max-width: 930px) {
+      width: 687px;
+    }
+  
+    @media (max-width: 706px) {
+      width: 443px;
+    }
+  }
+  
+  .cards {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 24px;
+    width: 1360px;
+  
+    @media (max-width: 1378px) {
+      width: 1097px;
+    }
+  
+    @media (max-width: 1154px) {
+      width: 871px;
+    }
+  
+    @media (max-width: 930px) {
+      width: 647px;
+    }
+  
+    @media (max-width: 706px) {
+      width: 423px;
+    }
+  }
+  
+  .filters {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 24px;
+    width: 1360px;
+  
+    @media (max-width: 1378px) {
+      width: 1095px;
+    }
+  
+    @media (max-width: 1154px) {
+      width: 871px;
+    }
+  
+    @media (max-width: 930px) {
+      width: 647px;
+    }
+  
+    @media (max-width: 706px) {
+      width: 423px;
+    }
+  }
+  
+  .button {
+    transition: 0.2s;
+    width: 200px;
+    background: none;
+    padding: 8px;
+    border-radius: 8px;
+    margin-left: calc(50% - 100px);
+  
+    &:hover {
+    
+      background-color: #88a814;
+      border: none;
+      cursor: pointer;
+    }
+  }
