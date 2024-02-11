@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from "react-router-dom";
-import { useGetGamesQuery } from "../../actions/gamesApi.js";
+import { useGetGamesQuery } from "../../actions/gamesApi.js"
 import { HomeButton } from "../HomeButton/HomeButton";
 import { Loader } from "../Loader/Loader.jsx";
 import styles from "./Game.module.scss";

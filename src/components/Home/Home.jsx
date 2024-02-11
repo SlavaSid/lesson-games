@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Home.module.scss";
-import { useGetGamesQuery } from "../../actions/gamesApi.js";
-import { Loader } from "../Loader/Loader";
+import { useGetGamesQuery } from "../../actions/gamesApi.js"
+import { Loader } from "../../components/Loader/Loader";
 import { Card } from "./Card/Card";
 import { Select } from "./Select/Select";
 
@@ -15,7 +15,6 @@ export const Home = () => {
   if (isLoading) return <Loader />;
 
   const sortGames = Object.values(data);
-  
   sortGames.sort((a, b) => a.collections.popularity - b.collections.popularity);
 
   const providerOptions = ["Provider"];
@@ -33,9 +32,7 @@ export const Home = () => {
       const currency = Object.keys(sortGames[i].real);
       currency.map(
         (item) => !currencyOptions.includes(item) && currencyOptions.push(item)
-        
       );
-      
     }
   }
 
