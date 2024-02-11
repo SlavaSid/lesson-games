@@ -1,8 +1,8 @@
 {
-  "name": "lesson-hw-games",
+  "name": "lesson-games",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://slavasid.github.io/lesson-hw-game/",
+  "homepage": "https://slavasid.github.io/lesson-games/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.1.0",
     "@testing-library/jest-dom": "^5.17.0",
