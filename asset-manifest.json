@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lesson-games/static/css/main.8d5684fd.css",
+    "main.js": "/lesson-games/static/js/main.35689dd4.js",
+    "index.html": "/lesson-games/index.html",
+    "main.8d5684fd.css.map": "/lesson-games/static/css/main.8d5684fd.css.map",
+    "main.35689dd4.js.map": "/lesson-games/static/js/main.35689dd4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d5684fd.css",
+    "static/js/main.35689dd4.js"
+  ]
+}
